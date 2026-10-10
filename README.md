@@ -13,7 +13,10 @@ Bukti: `latihan/01-my-button.js`, `latihan/02-my-button-shared.js`
 
 Link: https://react.dev/learn/tutorial-tic-tac-toe
 3 bagian: Overview (Board 9 kotak + props) → Completing the game (lifting + giliran X/O + winner) → Time travel (history).
-Done: game jadi di Sandpack + bisa jelasin kenapa pakai `slice()` bukan mutasi langsung. Bukti: `latihan/03-*.js`
+Setup lokal: `tic-tac-toe-starter/` (hasil extract CodeSandbox, sudah dicek aman).
+Jalanin: `cd tic-tac-toe-starter && npm install && npm start`
+Catatan: React canary bawaan zip diturunin ke `18.3.1` biar cocok `react-scripts@5` + Node 24.
+Done: game jalan di lokal + bisa jelasin kenapa pakai `slice()` bukan mutasi langsung. Bukti: `tic-tac-toe-starter/src/App.js`
 
 ## Step 2 — Thinking in React
 
